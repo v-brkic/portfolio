@@ -1,0 +1,10 @@
+/* MainComponent.css */
+
+#myCarousel {
+    background-color: black; /* Set background to black */
+  }
+  
+  .carousel-item {
+    background-color: transparent; /* Remove background from individual items */
+  }
+ 

@@ -91,12 +91,12 @@ const ContentComponent = () => {
                   Kad se smanji prozor, možda će "pasti" u više redova ovisno o responsive ponašanju. 
               */}
               <img
-                src="public/images/s19.png"
+                src="/images/s19.png"
                 alt="Screen 1"
                 style={{ width: "48%", margin: "0.5%" }}
               />
               <img
-                src="public/images/s18.png"
+                src="/images/s18.png"
                 alt="Screen 2"
                 style={{ width: "48%", margin: "0.5%" }}
               />

@@ -91,12 +91,12 @@ const ContentComponent = () => {
                   Kad se smanji prozor, možda će "pasti" u više redova ovisno o responsive ponašanju. 
               */}
               <img
-                src="public/images/s11.jpg"
+                src="public/images/s19.png"
                 alt="Screen 1"
                 style={{ width: "48%", margin: "0.5%" }}
               />
               <img
-                src="public/images/s14.jpg"
+                src="public/images/s18.png"
                 alt="Screen 2"
                 style={{ width: "48%", margin: "0.5%" }}
               />
@@ -146,12 +146,12 @@ const ContentComponent = () => {
                   Kad se smanji prozor, možda će "pasti" u više redova ovisno o responsive ponašanju. 
               */}
               <img
-                src="public/images/s21.png"
+                src="/images/s21.png"
                 alt="Screen 1"
                 style={{ width: "48%", margin: "0.5%" }}
               />
               <img
-                src="public/images/s24.jpg"
+                src="/images/s24.jpg"
                 alt="Screen 2"
                 style={{ width: "48%", margin: "0.5%" }}
               />
@@ -208,27 +208,27 @@ estimate future variables with the aim of optimizing the sale of surplus energy 
                   Kad se smanji prozor, možda će "pasti" u više redova ovisno o responsive ponašanju. 
               */}
               <img
-                src="public/images/graf1.png"
+                src="/images/graf1.png"
                 alt="Screen 1"
                 style={{  width: "48%", margin: "0.5%" }}
               />
               <img
-                src="public/images/graf2.png"
+                src="/images/graf2.png"
                 alt="Screen 2"
                 style={{  width: "48%",margin: "0.5%" }}
               />
               <img
-                src="public/images/graf3.png"
+                src="/images/graf3.png"
                 alt="Screen 2"
                 style={{  width: "48%",margin: "0.5%" }}
               />
               <img
-                src="public/images/graf4.png"
+                src="/images/graf4.png"
                 alt="Screen 2"
                 style={{  width: "48%",margin: "0.5%" }}
               />
               <img
-                src="public/images/statistika.png"
+                src="/images/statistika.png"
                 alt="Screen 2"
                 style={{  width: "90%",margin: "0.5%" }}
               />

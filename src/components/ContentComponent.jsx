@@ -19,8 +19,9 @@ const ContentComponent = () => {
         <div className="col-lg-4">
           <h2 className="fw-normal">Web applications</h2>
           <p>
-            I am also passionate about web application development, and I continuously work to
-            enhance my skills and gain valuable experience as a full-stack developer.
+            I am also passionate about web application development, on college team projects, 
+            I've been mostly doing backend but I continuously work to
+            enhance my skills and gain valuable experience as a full-stack developer. 
           </p>
           <p>
             <a className="btn btn-secondary" href="#">

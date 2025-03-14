@@ -44,7 +44,7 @@ const ContentComponent = () => {
         </div>
 
         <h1 className="pt-4 mt-5">
-          <b>Own exercise projects</b>
+          <b>Some of own exercise projects</b>
         </h1>
         <hr className="featurette-divider mt-5" />
 

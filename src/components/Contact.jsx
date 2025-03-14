@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Otvori mailto link sa popunjenim podacima
-    window.location.href = `mailto:your-email@example.com?subject=Kontakt forma&body=Ime: ${formData.name}%0DEmail: ${formData.email}%0DPoruka: ${formData.message}`;
+    window.location.href = `mailto:vinko.brkic@fer.hr?subject=Kontakt forma&body=Ime: ${formData.name}%0DEmail: ${formData.email}%0DPoruka: ${formData.message}`;
     setSubmitted(true);
   };
 
@@ -64,7 +64,7 @@ const Contact = () => {
         <button type="submit" className="submit-button">
           Send Message
         </button>
-        {submitted && <p className="success-message">Message sent!</p>}
+        {submitted && <p className="success-message">Mail opening!</p>}
       </form>
     </section>
   );

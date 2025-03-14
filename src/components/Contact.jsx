@@ -62,7 +62,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <button type="submit" className="submit-button">
-          Send Message
+          Open Mail sender
         </button>
         {submitted && <p className="success-message">Mail opening!</p>}
       </form>

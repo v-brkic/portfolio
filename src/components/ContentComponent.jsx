@@ -182,9 +182,9 @@ estimate future variables with the aim of optimizing the sale of surplus energy 
             <br /> Here some images previewing, but more detailed functionalities images you can see on github
             </p>
             <p className="lead">
-              Link to Github for more images and code: https://github.com/v-brkic/smartBuildingMonitoring.git{" "}
-              <a href="" target="_blank" rel="noreferrer">
-                
+              Link to Github for more images and code: {" "}
+              <a href="https://github.com/v-brkic/smartBuildingMonitoring.git" target="_blank" rel="noreferrer">
+              https://github.com/v-brkic/smartBuildingMonitoring.git
               </a>
             </p>
           </div>

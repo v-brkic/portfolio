@@ -1,6 +1,6 @@
 ## About Me
 
-I'm a hardworking student and skilled software engineer with experience in:
+I'm a hardworking student and skilled software engineer with most experience in:
 
 - **TypeScript**
 - **JavaScript**

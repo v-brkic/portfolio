@@ -1,10 +1,66 @@
-/* MainComponent.css */
+/* Pretpostavimo da koristiš klasu .fade-in za fade in efekt */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
 
-#myCarousel {
-    background-color: black; /* Set background to black */
+/* Ključne animacije */
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
   }
-  
+}
+
+/* Na manjim uređajima onemogućujemo fade in */
+@media (max-width: 768px) {
+  .fade-in {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Osnovni stilovi za carousel item */
+.carousel-item {
+  height: 70vh; /* visina postavljena na 70% visine viewporta */
+  min-height: 300px; /* minimalna visina za veće uređaje */
+  background: #000; /* možete promijeniti po želji */
+  color: #fff;
+  position: relative;
+}
+
+/* Pozicioniranje carousel caption-a */
+.carousel-caption {
+  bottom: 20%;
+}
+
+/* Media query za uređaje sa širinom manjom od 768px */
+@media (max-width: 768px) {
+  /* Smanjuje visinu carousel item-a za manje ekrane */
   .carousel-item {
-    background-color: transparent; /* Remove background from individual items */
+    height: 50vh;
+    min-height: 250px;
   }
- 
+
+  /* Centrira i prilagođava carousel caption */
+  .carousel-caption {
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* Smanjuje fontove i padding za manje uređaje */
+  .carousel-caption p,
+  .carousel-caption a.btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Cijeli gumb centriran */
+  .carousel-caption a.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

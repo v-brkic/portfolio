@@ -129,8 +129,7 @@ function App() {
             <a href="#">Back to top</a>
           </p>
           <p>
-            © 2017–2023 Company, Inc. · <a href="#">Privacy</a> ·{" "}
-            <a href="#">Terms</a>
+            Vinko Brkić 
           </p>
         </footer>
       </main>

@@ -1,5 +1,27 @@
 /* Contact.css */
 
+/* Pretpostavimo da koristiš klasu .fade-in za fade in efekt */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
+
+/* Ključne animacije */
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Na manjim uređajima onemogućujemo fade in */
+@media (max-width: 768px) {
+  .fade-in {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
+
+
 .contact-section {
     padding: 50px;
     text-align: center;

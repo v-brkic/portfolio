@@ -17,7 +17,6 @@ const ContentComponent = () => {
             skills in developing them.
           </p>
         </div>
-        <br />
         <div className="col-lg-4">
           <h2 className="fw-normal"><b>Web applications</b></h2>
           <p>
@@ -28,7 +27,6 @@ const ContentComponent = () => {
           </p>
           
         </div>
-        <br />
         <div className="col-lg-4">
           <h2 className="fw-normal"><b>Cybersecurity</b></h2>
           <p>
@@ -49,8 +47,8 @@ const ContentComponent = () => {
         <div className="row featurette mt-5">
           <div className="col-md-7">
             <h2 className="featurette-heading fw-normal">
-              <b>Loyalty Android Application </b>
-              <span className="text-body-secondary">Try for a bar.</span>
+              <b>Loyalty Android Application </b> <br />
+              <span>Try for a bar.</span>
             </h2>
             <br />
             <p className="lead">
@@ -100,7 +98,7 @@ const ContentComponent = () => {
             <h2 className="featurette-heading fw-normal">
               <b>Reservation Android App </b>
               <br />
-              <span className="text-body-secondary">Car detailing.</span>
+              <span>Car detailing.</span>
             </h2>
             <p className="lead">
               Through this hands-on project, I have covered various aspects of
@@ -164,9 +162,11 @@ const ContentComponent = () => {
           <div className="col-md-7">
             <h2 className="featurette-heading fw-normal lh-1">
               <b>
-                Web application for predictive monitoring of smart buildings
-                <span className="text-body-secondary"> Machine learning</span>
+                Web application for predictive monitoring of smart buildings &nbsp;
+                 
               </b>
+              <br />
+              <span> (Machine learning)</span>
               <br />
             </h2>
             <p className="lead">

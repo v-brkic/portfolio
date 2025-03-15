@@ -2,52 +2,10 @@ h1{
     color: #d185d298;
 }
 
-/* Pretpostavimo da koristiš klasu .fade-in za fade in efekt */
-.fade-in {
-    opacity: 0;
-    animation: fadeInAnimation 1s forwards;
-  }
-  
-  /* Ključne animacije */
-  @keyframes fadeInAnimation {
-    to {
-      opacity: 1;
-    }
-  }
-  
-  /* Na manjim uređajima onemogućujemo fade in */
-  @media (max-width: 768px) {
-    .fade-in {
-      animation: none !important;
-      opacity: 1 !important;
-    }
-  }
-  
+span{
+    color: #d185d298;
+}
 
-/* Stil za okvir slike */
-.image-container {
-    width: 500px;
-    height: 500px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Stil za širi okvir, npr. za web aplikaciju */
-  .wide-container {
-    width: 650px;
-    height: 700px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
   /* Media query za manje ekrane */
   @media (max-width: 768px) {
     /* Postavi grid kolone da zauzmu punu širinu */

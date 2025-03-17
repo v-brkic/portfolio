@@ -95,8 +95,8 @@ function App() {
   <div className="hero-content col-md-6 p-lg-5 my-5 fade-in">
     <h1 className="display-3 fw-bold text-white">Hi, I'm Vinko Brkić!</h1>
     <h3 className="fw-normal mb-3 text-white">
-      I'm a hardworking student and skilled software engineer with experience in TypeScript, JavaScript, C++, C, C#, Unity,
-       Java, and Python. Currently, I am doing my Master's degree in Software Engineering and Information Systems.
+      I'm a hardworking student and skilled software engineer with experience in JavaScript (Node, React), HTML, CSS, C++, C, C#,
+       Java, Python, R, SQL, mongoDB and Linux. Currently, I am doing my Master's degree in Software Engineering and Information Systems.
     </h3>
     <div className="d-flex gap-3 lead fw-normal">
       <a className="btn btn-outline-success" href="#content">
